@@ -45,7 +45,7 @@ class _UiSettings(BaseSettings):
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
     chat_title: str = "Start chatting"
-    chat_description: str = "This chatbot is an AI assistant designed to assist users with information strictly derived from Subsea 7's Agility data as available until November 2024, prior to the migration to a new system. Please note that as this is an early testing phase, responses may require validation, and not all information from Agility data may be accurately reflected or complete."
+    chat_description: str = "This chatbot is an AI assistant designed to assist users with information strictly derived from Agility data as available until November 2024.\n\nPlease note that as this is an early testing phase, responses may require validation, and not all information may be accurately reflected."
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
