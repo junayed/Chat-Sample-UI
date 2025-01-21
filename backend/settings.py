@@ -41,11 +41,11 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "Contoso"
+    title: str = "Agility Chat"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
     chat_title: str = "Start chatting"
-    chat_description: str = "This chatbot is configured to answer your questions"
+    chat_description: str = "This chatbot is an AI assistant designed to assist users with information strictly derived from Subsea 7's Agility data as available until November 2024, prior to the migration to a new system. Please note that as this is an early testing phase, responses may require validation, and not all information from Agility data may be accurately reflected or complete."
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
